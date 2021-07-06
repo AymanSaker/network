@@ -1,0 +1,24 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["helo","hi","good morrning","Greetings","how is it going", "hey"],
+  "responses": ["Hello!","Hey!","What can I do For you?","Welcome!"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["Goodbye","Bye","I am leaving","Have a good day","cao","see ya","see you","see you later"],
+  "responses": ["Sad to see you go:(","GoodBye","Talk to you later"]
+  },
+  {"tag": "age",
+  "patterns": ["how old","how old are you","what is your age","age?"],
+  "responses":["24 years!","My owner age is 24 years age!"]
+  },
+  {"tag" : "name",
+    "patterns": ["what is your name","what should I call you","name!","who are you","can tell me you name?"],
+    "responses": ["You can call me Max","I am Max "]
+  },
+  {"tag": "work",
+    "patterns": ["what is your work?","what can you do","what do you do"],
+    "responses": ["I'm a ChatBot for university broject :)"]
+  }
+
+]
+}
